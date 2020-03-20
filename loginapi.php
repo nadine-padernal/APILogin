@@ -1,7 +1,7 @@
 
 <head>
     <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="410146654780-dfpjcnbrs7vpqkm62hs14l7bhtglj9gc.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="410146654780-p4upelgeuqp815g8486gp1b66sag9ndc.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
  </head><!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
