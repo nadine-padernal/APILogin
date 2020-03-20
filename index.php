@@ -26,8 +26,8 @@ $mod = (isset($_GET['module']) && $_GET['module'] != '') ? $_GET['module']: '';
 
       <div class="navbar">
         <a href="index.php">Home</a>
-        <a href="index.php?navigation=product">Products</a>
-        <a href="index.php?navigation=categories">Category</a>
+        <a href="index.php?mod=product">Products</a>
+        <a href="index.php?mod=categories">Category</a>
       </div>
 
 
@@ -44,7 +44,7 @@ $mod = (isset($_GET['module']) && $_GET['module'] != '') ? $_GET['module']: '';
               require_once 'form_create.php';
               break;
             case 'details':
-              require_once 'product-details.php';
+              require_once 'product_details.php';
               break;
             case 'update':
               require_once 'form_update.php';
@@ -74,7 +74,7 @@ $mod = (isset($_GET['module']) && $_GET['module'] != '') ? $_GET['module']: '';
                   require_once 'form_create.php';
                   break;
                 case 'details':
-                  require_once 'product-details.php';
+                  require_once 'product_details.php';
                   break;
                 case 'update':
                   require_once 'form_update.php';
